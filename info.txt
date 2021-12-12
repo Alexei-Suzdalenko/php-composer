@@ -1,1 +1,7 @@
 1. composer dump
+
+2. composer require --dev phpunit/phpunit
+   composer require nesbot/carbon
+
+3. composer init
+   composer install

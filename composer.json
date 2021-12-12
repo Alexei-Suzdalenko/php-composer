@@ -1,10 +1,19 @@
 {
-  "autoload": {
-    "psr-4": {
-      "Text\\": "src/"
+    "name": "34618/php-composer",
+    "description": "Ejemplo composer application",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "3.x-dev"
     },
-    "files": [
-      "src/helpers.php"
-    ]
-  }
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alexei",
+            "email": "alexei.saron@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }
